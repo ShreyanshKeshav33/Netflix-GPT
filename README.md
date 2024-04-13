@@ -1,70 +1,79 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NetflixGPT
 
-## Available Scripts
+Developed a streaming platform using React, Redux, Firebase, and TMDB API for movie data where I integrated OpenAI GPT to offer personalized movie recommendations and multilanguage suppor and implemented custom hooks for efficient state management and ensured responsive design for cross-device accessibility.
 
-In the project directory, you can run:
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+```bash
+  npm install netflix-gpt
+  cd netflix-gpt
+```
+    
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- GPT-Search
+- Authentication
+- Internationalisation
+- TMDB API
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Client:** React, Redux, TailwindCSS
 
-### `npm run eject`
+**Server:** Node, Express
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Sign Up
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot (28)](https://github.com/ShreyanshKeshav33/Netflix-GPT/assets/71323239/16e8845f-8965-4307-80ec-9b1885d95f3e)
 
-## Learn More
+If Password not Valid
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot (29)](https://github.com/ShreyanshKeshav33/Netflix-GPT/assets/71323239/8d86b026-89fc-4054-b78b-93f2a1a6e847)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Home Page
 
-### Code Splitting
+![Screenshot (26)](https://github.com/ShreyanshKeshav33/Netflix-GPT/assets/71323239/f6002639-6f17-441b-a50e-18ae58270bb7)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Multi-Language Selection
 
-### Analyzing the Bundle Size
+![Screenshot (27)](https://github.com/ShreyanshKeshav33/Netflix-GPT/assets/71323239/b59177ae-a789-48f6-8aed-3fa8e475f887)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deployment
 
-### Making a Progressive Web App
+To deploy this project run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  npm run start
+```
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Environment Variables
 
-### Deployment
+To run this project, you will need to add the following environment variables to your .env file
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+`REACT_APP_TMDB_KEY`
 
-### `npm run build` fails to minify
+`REACT_APP_OPENAI_KEY`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Problems(Current)
+
+-Layout Problem
+
+-OPEN_API limit exhausted
+
+
+## Contributing
+
+Contributions are always welcome!
+
+
